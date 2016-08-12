@@ -1,7 +1,7 @@
 # Element size: Cover
 A tiny jQuery plugin for enabling background-size: cover; like behaviour on elements
 
-Include the .js file in your project. To use, make sure your HTML is set up like so:
+Include cover-element.js in your project. To use, make sure your HTML is set up like so:
 
 ```html
 <div class="parent">
