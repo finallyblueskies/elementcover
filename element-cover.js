@@ -22,14 +22,11 @@
     var $mum   = $(this).parent();
     var width  = $el[0].offsetWidth;
     var height = $el[0].offsetHeight;
-    
     var ratio  = width / height;
     
+    var a, b, c;
+
     $(window).on('resize', function(){
-      
-      var mumRatio = $mum[0].offsetWidth / $mum[0].offsetHeight;
-                
-      var a, b, c;
       
       //If width < height
       if(ratio < mumRatio){
