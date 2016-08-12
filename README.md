@@ -4,7 +4,9 @@ A tiny jQuery plugin for enabling background-size: cover; like behaviour on elem
 Include cover-element.js in your project. To use, make sure your HTML is set up like so:
 
 ```html
-<div class="parent">
+
+<!-- Make sure parent div has some dimensions --> 
+<div>
   <div class="cover-me"></div>
 </div>
 ```
