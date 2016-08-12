@@ -17,3 +17,5 @@ $('.cover-me').elementCover();
 ```
 
 And `.cover-me` will be resized and centered accordingly.
+
+Works on all major browsers down to IE9.
